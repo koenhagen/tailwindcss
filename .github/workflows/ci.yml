@@ -70,7 +70,7 @@ jobs:
             npx turbo run test --filter=// || \
             npx turbo run test --filter=// || \
             npx turbo run test --filter=// || exit 1
-          count: 1
+          count: 10
 
       - name: Lint
         run: npx turbo run style --filter=//

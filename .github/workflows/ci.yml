@@ -3,6 +3,7 @@ name: CI — Oxide
 
 on:
   push:
+  pull_request:
 
 permissions: write-all
 
